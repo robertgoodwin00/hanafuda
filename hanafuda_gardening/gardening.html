@@ -1,0 +1,183 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Hanafuda Gardening game">
+        <meta name="author" content="Robert Goodwin">
+        <meta name="keywords" content="hanafuda, cards, gardening, flowers, game, original" />
+	
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>Gardening: An original Hanafuda game for 2 players</title>
+
+
+        <link href="gardening.css" rel="stylesheet">
+    </head>
+
+    
+<body>
+    <h2>Gardening: An original Hanafuda game for 2 players</h2>
+    <h4>created by Robert Goodwin</h4>
+    <div class="paragraph">
+        Gardening is a Hanafuda cards game for 2 players.
+        <div class="sub">Object:</div>
+        Each player, by drawing cards from a shared draw pile, and by manipulating his and his opponent's discard piles, seeks to "plant flowers" in his garden. The first player to have all four cards of any suit in their garden wins.
+        
+        <div class="sub">Setup:</div>
+        Shuffle the cards and deal 5 to each player. The remainder, set to one side, becomes the shared draw pile.
+        
+        <div class="sub">Drawing &amp; Planting:</div>
+        A turn consists of drawing one card--hereafter called a "flower"--from the shared draw pile, optionally planting flowers in the space in front of him--hereafter called his "garden"--if able, and mandatory discarding of flowers to his discard pile--hereafter called his "shelf"--if holding more than 5. A player's turn ends only once there are no more than 5 flowers in his hand.
+        <br><br>
+        During his turn, a player may plant flowers if he meets one of the following requirements:
+        <ol>
+            <li> He may plant 3 flowers of the same suit together if he is holding all 3 in his hand.</li>
+            <li> He may plant a flower singly if there is at least one flower of the same suit in his garden.</li>
+        </ol>
+        Any number of flowers may be planted each turn as long as one of the requirements are met, and a garden may contain any number of flowers.
+
+        <div class="sub">Discarding:</div>
+        During his turn, if he holds more than 5 flowers, a player may discard a flower to his shelf. He may NOT discard while holding 5 flowers or less.
+        <br><br>
+        Many flowers produce specific effects when discarded, and it is possible for shelved flowers to return to play through these effects, whichs will be explained in the next section.
+        <br><br>
+        A player may not end his turn until he is holding 5 flowers or less.
+
+            <div class="sub">Discard effects:</div>
+            <div class="category">Blank red scrolls</div>
+            <div class="flower-div">
+                <img src="april2.png">
+                <img src="july2.png">
+                <img src="may2.png">
+                <img src="november3.png">
+            </div>
+            <div class="desc">
+                When one of these flowers is discarded, the player chooses one flower from his shelf to return to his hand.
+            </div>
+        
+            <div class="category">Purple scrolls</div>
+            <div class="flower-div">
+                <img src="june2.png">
+                <img src="september2.png">
+                <img src="october2.png">
+            </div>
+            <div class="desc">
+                When one of these is discarded, the player chooses one flower from his opponent's shelf to return to his hand.
+            </div>
+        
+            <div class="category">Inscribed scrolls</div>
+            <div class="flower-div">
+                <img src="january2.png">
+                <img src="february2.png">
+                <img src="march2.png">
+            </div>
+            <div class="desc">
+                When one of these is discarded, the player chooses one flower from his shelf to return to his hand together with all other flowers in his shelf of that suit.
+                
+                
+            </div>
+        
+            <div class="category">The Eye</div>
+            <div class="flower-div">
+                <img src="december1.png">
+            </div>
+            <div class="desc">
+                When this is discarded, the player's opponent must play with his hand revealed. The effect lasts until a flower is planted in either garden. 
+            </div>
+        
+            <div class="category">The Deer</div>
+            <div class="flower-div">
+                <img src="october1.png">
+            </div>
+            <div class="desc">
+                When this is discarded, each shelf is counted. The shelf with the most flowers--or both shelves in the case of a tie--are reshuffled into the draw pile. The Deer itself is not included in the count, nor is it reshuffled with the other flowers.
+            </div>
+        
+            <div class="category">The Boar</div>
+            <div class="flower-div">
+                <img src="july1.png">
+            </div>
+            <div class="desc">
+                When this is discarded, the player MUST if able choose one planted flower in either garden to be destroyed. Place the destroyed flower in its owner's shelf.
+            </div>
+        
+            <div class="category">The Butterflies</div>
+            <div class="flower-div">
+                <img src="june1.png">
+            </div>
+            <div class="desc">
+                When this is discarded, the player takes one flower from his opponent's hand. He then gives his opponent one flower from his own hand. (He may not see the flowers in his opponent's hand unless his opponent is under the effect of The Eye)
+            </div>
+
+            <div class="category">Rain</div>
+            <div class="flower-div">
+                <img src="november1.png">
+            </div>
+            <div class="desc">
+                When this is discarded it becomes immediately planted, bypassing the normal requirements for planting flowers. 
+                <br>
+                Rain is destroyed and placed in its owner's garden when a Bird flower is planted in the same garden, unless the bird is of the same suit as Rain and they are planted together, as explained in the next section.
+            </div>
+        
+            <div class="category">Sakura Bloom</div>
+            <div class="flower-div">
+                <img src="march1.png">
+            </div>
+        
+        
+            <div class="desc">
+                When this is discarded, the player must choose one flower from either shelf to return to the bottom of the draw pile. Sakura Bloom cannot be chosen.
+            </div>
+        
+            <div class="category">The Rice Bowl</div>
+            <div class="flower-div">
+                <img src="september1.png">
+            </div>
+            <div class="desc">
+                When this is discarded, the player draws a card.
+            </div>
+        
+            <div class="category">The Dock</div>
+            <div class="flower-div">
+                <img src="may1.png">
+            </div>
+            <div class="desc">
+                When this is discarded, it is placed in the opponent's shelf. If and when the last card from the draw pile has been drawn, The Dock immediately becomes planted in whichever garden contains the other three flowers of that suit, if any, bypassing the normal requirements for planting (its owner wins the game).
+            </div>
+        
+            <div class="sub">Miscellaneous effects:</div>
+            <div class="category">Birds</div>
+            <div class="flower-div">
+                <img src="january1.png">
+                <img src="february1.png">
+                <img src="april1.png">
+                <img src="august2.png">
+                <img src="november2.png">
+            </div>
+            <div class="desc">
+                These flowers bypass the normal requirements for planting in that they may be planted together with only 1 other flower of the same suit.
+                <br>
+                They also trigger Rain to be destroyed and placed in the player's shelf, if existing in the same garden, unless both Rain and the Bird from that suit are planted together.
+            </div>
+        
+            <div class="category">The Moon</div>
+            <div class="flower-div">
+                <img src="august1.png">
+            </div>
+            <div class="desc">
+                If The Moon is planted, it and all flowers of its suit in its owner's garden are immune to the effect of The Boar.
+            </div>
+
+        <div class="sub">Game end:</div>
+        The game ends when one player has four flowers of one suit in his garden, or when the draw pile is empty. The latter results in a tie.
+    </div>
+    
+    <div class="flower-div">
+        
+    </div>
+    
+</body>    
+    
+    
+</html>

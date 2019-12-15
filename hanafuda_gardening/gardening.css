@@ -1,0 +1,32 @@
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.sub {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.category {
+    font-size: larger;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.desc {
+    margin-top: 2px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    padding: 20px;
+}
+
+.flower-div {
+    border-style: solid:
+    border: 2px;
+    
+    padding: 10px;
+}
